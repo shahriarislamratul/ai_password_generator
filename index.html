@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="UTF-8">
+  <link rel="stylesheet" href="style.css">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Password Generate</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Chakra+Petch:ital,wght@0,300;0,400;0,500;0,600;0,700;1,300;1,400;1,500;1,600;1,700&family=Josefin+Sans:ital,wght@0,100..700;1,100..700&family=Oswald:wght@200..700&family=Roboto+Slab:wght@100..900&family=Sedgwick+Ave&display=swap" rel="stylesheet">
+</head>
+
+<body>
+
+  <div class="container">
+    <h1>Generate Automatic Password</h1>
+    <input class="num" type="number" id="passLength" placeholder="Length of Password">
+
+    <div class="form-control">
+      <label for="upper">Contain Uppercase Letters</label>
+      <input id="upper" type="Checkbox" />
+    </div>
+    <div class="form-control">
+      <label for="lower">Contain Lowercase Letters</label>
+      <input id="lower" type="Checkbox" />
+    </div>
+    <div class="form-control">
+      <label for="number">Contain Numbers</label>
+      <input id="number" type="Checkbox" />
+    </div>
+    <div class="form-control">
+      <label for="symbol">Contain Symbols</label>
+      <input id="symbol" type="checkbox" />
+    </div>
+
+    <div class="output">
+      <input type="text" placeholder="Password output" id="inPutPass" readonly>
+      <button id="copyBtn">Copy</button>
+    </div>
+    <button type="submit" id="btn">Generate</button>
+  </div>
+<br>
+<br>
+  <footer>
+    &copy; 2024<br>
+    Contact: <a href="https://www.facebook.com/shahriar.islam.ratul69?mibextid=ZbWKwL ">Shahriar Islam Ratul</a>
+  </footer>
+
+
+  <script src="script.js"></script>
+</body>
+
+</html>
