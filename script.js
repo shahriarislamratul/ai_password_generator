@@ -11,7 +11,7 @@ function generateCode(length = 6) {
   const upper = 'QWERTYUIOPASDFGHJKLZXCVBNM';
   const lower = 'qwertyuiopasdfghjklzxcvbnm';
   const numbers = '0123456789';
-  const symbols = '@#%&*!?$';
+  const symbols = '@#%&*!?$)(][}{<>_:;^°=≠£$';
 
   let phrase = '';
 
